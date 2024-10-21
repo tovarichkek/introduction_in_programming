@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/benchmarking_eratosfen.dir/benchmark_eratosfen.o -o benchmarking_eratosfen  -lpthread -lbenchmark 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/testing_eratosfen.dir/testing_eratosfen.o -o testing_eratosfen  -lgtest -lgmock -lpthread 

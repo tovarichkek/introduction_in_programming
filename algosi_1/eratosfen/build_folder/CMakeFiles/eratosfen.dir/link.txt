@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/eratosfen.dir/eratosfen.o -o eratosfen 

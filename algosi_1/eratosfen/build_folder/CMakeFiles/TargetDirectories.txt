@@ -1,0 +1,5 @@
+/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_1/eratosfen/build_folder/CMakeFiles/eratosfen.dir
+/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_1/eratosfen/build_folder/CMakeFiles/testing_eratosfen.dir
+/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_1/eratosfen/build_folder/CMakeFiles/benchmarking_eratosfen.dir
+/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_1/eratosfen/build_folder/CMakeFiles/edit_cache.dir
+/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_1/eratosfen/build_folder/CMakeFiles/rebuild_cache.dir
