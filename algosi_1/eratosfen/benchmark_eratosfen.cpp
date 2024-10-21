@@ -2,6 +2,8 @@
 #include "eratosfen.hpp"
 #include <benchmark/benchmark.h>
 
+#define MAX_BENCHMARK_N 200000
+
 long long mass[MAX_COUNT_PRIME_NUMBERS] = {};
 
 static void BM_eratosfen(benchmark::State& state) {
@@ -12,13 +14,13 @@ static void BM_eratosfen(benchmark::State& state) {
 
 static void CustomArguments(benchmark::internal::Benchmark* b) {
     long long i;
-    for (i = 30; i <= 100/*00*/; i *= 1.2){
+    for (i = 30; i <= 5000 && i < MAX_BENCHMARK_N; i *= 1.2){
         b->Arg(i);
     }
-    for (; i <= 20000; i *= 1.1){
+    for (; i <= 20000 && i <= MAX_BENCHMARK_N; i *= 1.1){
         b->Arg(i);
     }
-    for (; i <= 200000; i *= 1.05){
+    for (; i <= MAX_BENCHMARK_N; i *= 1.05){
         b->Arg(i);
     }
 }

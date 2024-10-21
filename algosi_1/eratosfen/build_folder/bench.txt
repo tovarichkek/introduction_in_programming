@@ -1,123 +1,1582 @@
-2024-10-22T00:15:09+03:00
-Running ./benchmarking_eratosfen
-Run on (12 X 4056 MHz CPU s)
-CPU Caches:
-  L1 Data 32 KiB (x6)
-  L1 Instruction 32 KiB (x6)
-  L2 Unified 512 KiB (x6)
-  L3 Unified 4096 KiB (x2)
-Load Average: 1.22, 1.08, 0.89
-***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
---------------------------------------------------------------
-Benchmark                    Time             CPU   Iterations
---------------------------------------------------------------
-BM_eratosfen/30           55.9 ns         55.9 ns     12366709
-BM_eratosfen/36           71.4 ns         71.3 ns      9647223
-BM_eratosfen/43           73.7 ns         73.7 ns      9260645
-BM_eratosfen/51           84.5 ns         84.5 ns      8211415
-BM_eratosfen/61            126 ns          126 ns      5581698
-BM_eratosfen/73            145 ns          145 ns      4841214
-BM_eratosfen/87            160 ns          160 ns      4453788
-BM_eratosfen/104           194 ns          194 ns      3598344
-BM_eratosfen/114           202 ns          202 ns      3445709
-BM_eratosfen/125           230 ns          230 ns      3106004
-BM_eratosfen/137           245 ns          245 ns      2865395
-BM_eratosfen/150           270 ns          270 ns      2600516
-BM_eratosfen/165           275 ns          275 ns      2555013
-BM_eratosfen/181           323 ns          323 ns      2170832
-BM_eratosfen/199           366 ns          366 ns      1874298
-BM_eratosfen/218           387 ns          386 ns      1820575
-BM_eratosfen/239           429 ns          427 ns      1599529
-BM_eratosfen/262           477 ns          475 ns      1474375
-BM_eratosfen/288           533 ns          532 ns      1306822
-BM_eratosfen/316           607 ns          606 ns      1197150
-BM_eratosfen/347           644 ns          643 ns      1073491
-BM_eratosfen/381           698 ns          696 ns       990352
-BM_eratosfen/419           996 ns          994 ns       661100
-BM_eratosfen/460           832 ns          832 ns       837499
-BM_eratosfen/506          1550 ns         1550 ns       464010
-BM_eratosfen/556          1023 ns         1023 ns       528824
-BM_eratosfen/611          1076 ns         1076 ns       654551
-BM_eratosfen/672          1444 ns         1441 ns       591672
-BM_eratosfen/739          1678 ns         1673 ns       338120
-BM_eratosfen/812          1848 ns         1842 ns       482656
-BM_eratosfen/893          2583 ns         2583 ns       246435
-BM_eratosfen/982          1742 ns         1739 ns       351721
-BM_eratosfen/1080         1871 ns         1869 ns       378788
-BM_eratosfen/1188         2085 ns         2078 ns       334695
-BM_eratosfen/1306         2255 ns         2252 ns       312887
-BM_eratosfen/1436         2673 ns         2673 ns       283894
-BM_eratosfen/1579         2820 ns         2816 ns       216404
-BM_eratosfen/1736         3002 ns         2997 ns       233387
-BM_eratosfen/1909         3786 ns         3780 ns       213079
-BM_eratosfen/2099         3590 ns         3584 ns       191350
-BM_eratosfen/2308         3970 ns         3964 ns       176092
-BM_eratosfen/2538         4385 ns         4381 ns       159564
-BM_eratosfen/2791         4800 ns         4800 ns       145247
-BM_eratosfen/3070         5557 ns         5557 ns       132100
-BM_eratosfen/3377         6423 ns         6423 ns       118797
-BM_eratosfen/3714         6528 ns         6528 ns       108908
-BM_eratosfen/4085         7100 ns         7100 ns        98297
-BM_eratosfen/4493         7784 ns         7784 ns        89661
-BM_eratosfen/4942         8526 ns         8526 ns        81606
-BM_eratosfen/5436         9439 ns         9439 ns        73132
-BM_eratosfen/5979        10405 ns        10404 ns        63986
-BM_eratosfen/6576        11481 ns        11481 ns        60097
-BM_eratosfen/7233        12985 ns        12966 ns        51636
-BM_eratosfen/7956        14178 ns        14172 ns        47900
-BM_eratosfen/8751        15597 ns        15597 ns        44574
-BM_eratosfen/9626        17580 ns        17580 ns        39393
-BM_eratosfen/10588       19459 ns        19458 ns        35797
-BM_eratosfen/11646       21605 ns        21605 ns        32120
-BM_eratosfen/12810       24012 ns        24012 ns        28895
-BM_eratosfen/14091       30042 ns        30042 ns        21052
-BM_eratosfen/15500       34636 ns        34636 ns        20404
-BM_eratosfen/17050       37081 ns        37081 ns        18814
-BM_eratosfen/18755       43489 ns        43489 ns        16395
-BM_eratosfen/20630       45147 ns        45146 ns        15871
-BM_eratosfen/21661       46601 ns        46601 ns        14955
-BM_eratosfen/22744       48536 ns        48535 ns        13859
-BM_eratosfen/23881       57494 ns        57493 ns        13139
-BM_eratosfen/25075       54687 ns        54685 ns        12544
-BM_eratosfen/26328       57416 ns        57415 ns        11931
-BM_eratosfen/27644       62120 ns        62117 ns        11057
-BM_eratosfen/29026       65461 ns        65457 ns        10657
-BM_eratosfen/30477       69266 ns        69264 ns        10067
-BM_eratosfen/32000       73183 ns        73181 ns         9522
-BM_eratosfen/33600       77283 ns        77280 ns         9069
-BM_eratosfen/35280       82151 ns        82097 ns         8435
-BM_eratosfen/37044       86264 ns        86070 ns         8077
-BM_eratosfen/38896       91876 ns        91871 ns         7644
-BM_eratosfen/40840       95686 ns        95685 ns         7264
-BM_eratosfen/42882      101020 ns       101016 ns         6918
-BM_eratosfen/45026      106049 ns       105991 ns         6555
-BM_eratosfen/47277      115514 ns       115158 ns         6269
-BM_eratosfen/49640      119361 ns       118910 ns         5820
-BM_eratosfen/52122      124664 ns       124197 ns         5629
-BM_eratosfen/54728      131438 ns       131169 ns         5292
-BM_eratosfen/57464      138281 ns       137896 ns         5028
-BM_eratosfen/60337      144770 ns       144563 ns         4838
-BM_eratosfen/63353      151539 ns       151062 ns         4579
-BM_eratosfen/66520      160550 ns       160095 ns         4348
-BM_eratosfen/69846      170777 ns       170555 ns         4151
-BM_eratosfen/73338      178578 ns       178305 ns         3837
-BM_eratosfen/77004      186581 ns       186284 ns         3762
-BM_eratosfen/80854      211205 ns       211181 ns         3237
-BM_eratosfen/84896      205634 ns       204886 ns         3398
-BM_eratosfen/89140      215292 ns       214582 ns         3255
-BM_eratosfen/93597      228311 ns       227590 ns         3102
-BM_eratosfen/98276      239249 ns       238888 ns         2926
-BM_eratosfen/103189     255786 ns       255515 ns         2806
-BM_eratosfen/108348     264490 ns       263711 ns         2582
-BM_eratosfen/113765     276206 ns       275108 ns         2546
-BM_eratosfen/119453     290238 ns       289221 ns         2395
-BM_eratosfen/125425     304441 ns       303220 ns         2301
-BM_eratosfen/131696     321219 ns       320647 ns         2188
-BM_eratosfen/138280     336593 ns       336509 ns         2074
-BM_eratosfen/145194     352873 ns       352874 ns         1975
-BM_eratosfen/152453     368890 ns       368884 ns         1888
-BM_eratosfen/160075     387201 ns       387200 ns         1783
-BM_eratosfen/168078     408078 ns       408070 ns         1712
-BM_eratosfen/176481     430522 ns       430505 ns         1623
-BM_eratosfen/185305     451874 ns       451863 ns         1546
-BM_eratosfen/194570     476823 ns       476806 ns         1470
+{
+  "context": {
+    "date": "2024-10-22T02:00:44+03:00",
+    "host_name": "tovarichkek",
+    "executable": "./benchmarking_eratosfen",
+    "num_cpus": 12,
+    "mhz_per_cpu": 4056,
+    "cpu_scaling_enabled": true,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 524288,
+        "num_sharing": 2
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 4194304,
+        "num_sharing": 6
+      }
+    ],
+    "load_avg": [0.373047,0.467773,0.615234],
+    "library_version": "v1.9.0-12-g761305ec",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "BM_eratosfen/30",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_eratosfen/30",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 12260797,
+      "real_time": 5.5401965140413218e+01,
+      "cpu_time": 5.5393346125867687e+01,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/36",
+      "family_index": 0,
+      "per_family_instance_index": 1,
+      "run_name": "BM_eratosfen/36",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 10089509,
+      "real_time": 6.9539956107211083e+01,
+      "cpu_time": 6.9499849100684685e+01,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/43",
+      "family_index": 0,
+      "per_family_instance_index": 2,
+      "run_name": "BM_eratosfen/43",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 9502338,
+      "real_time": 7.5847444282531370e+01,
+      "cpu_time": 7.5721127158389876e+01,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/51",
+      "family_index": 0,
+      "per_family_instance_index": 3,
+      "run_name": "BM_eratosfen/51",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 8152595,
+      "real_time": 8.8320357383470139e+01,
+      "cpu_time": 8.8188567811843939e+01,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/61",
+      "family_index": 0,
+      "per_family_instance_index": 4,
+      "run_name": "BM_eratosfen/61",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 5543282,
+      "real_time": 1.2537200596928767e+02,
+      "cpu_time": 1.2537237073632552e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/73",
+      "family_index": 0,
+      "per_family_instance_index": 5,
+      "run_name": "BM_eratosfen/73",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4785895,
+      "real_time": 1.4688128406392883e+02,
+      "cpu_time": 1.4687390947774645e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/87",
+      "family_index": 0,
+      "per_family_instance_index": 6,
+      "run_name": "BM_eratosfen/87",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4401572,
+      "real_time": 1.5822107669833176e+02,
+      "cpu_time": 1.5803350121274866e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/104",
+      "family_index": 0,
+      "per_family_instance_index": 7,
+      "run_name": "BM_eratosfen/104",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3556830,
+      "real_time": 1.9489611676881816e+02,
+      "cpu_time": 1.9478718718634283e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/114",
+      "family_index": 0,
+      "per_family_instance_index": 8,
+      "run_name": "BM_eratosfen/114",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3446937,
+      "real_time": 2.0780358503833159e+02,
+      "cpu_time": 2.0741882343657568e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/125",
+      "family_index": 0,
+      "per_family_instance_index": 9,
+      "run_name": "BM_eratosfen/125",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3059763,
+      "real_time": 2.3187223814323482e+02,
+      "cpu_time": 2.3143957881705217e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/137",
+      "family_index": 0,
+      "per_family_instance_index": 10,
+      "run_name": "BM_eratosfen/137",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2795202,
+      "real_time": 2.5162016090636689e+02,
+      "cpu_time": 2.5083880127446943e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/150",
+      "family_index": 0,
+      "per_family_instance_index": 11,
+      "run_name": "BM_eratosfen/150",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2615624,
+      "real_time": 2.7368106310830785e+02,
+      "cpu_time": 2.7313413319345597e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/165",
+      "family_index": 0,
+      "per_family_instance_index": 12,
+      "run_name": "BM_eratosfen/165",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2541056,
+      "real_time": 2.7726810467951361e+02,
+      "cpu_time": 2.7668818711590791e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/181",
+      "family_index": 0,
+      "per_family_instance_index": 13,
+      "run_name": "BM_eratosfen/181",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2228292,
+      "real_time": 3.1818787529034614e+02,
+      "cpu_time": 3.1746336476547958e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/199",
+      "family_index": 0,
+      "per_family_instance_index": 14,
+      "run_name": "BM_eratosfen/199",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1917369,
+      "real_time": 3.6874522535359046e+02,
+      "cpu_time": 3.6794751349375150e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/218",
+      "family_index": 0,
+      "per_family_instance_index": 15,
+      "run_name": "BM_eratosfen/218",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1791474,
+      "real_time": 3.9711020477756870e+02,
+      "cpu_time": 3.9634669049062370e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/239",
+      "family_index": 0,
+      "per_family_instance_index": 16,
+      "run_name": "BM_eratosfen/239",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1603063,
+      "real_time": 4.4696411307333045e+02,
+      "cpu_time": 4.4630662987044224e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/262",
+      "family_index": 0,
+      "per_family_instance_index": 17,
+      "run_name": "BM_eratosfen/262",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1453222,
+      "real_time": 4.8125212114612242e+02,
+      "cpu_time": 4.8002393921919708e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/288",
+      "family_index": 0,
+      "per_family_instance_index": 18,
+      "run_name": "BM_eratosfen/288",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1317086,
+      "real_time": 5.2389332814770330e+02,
+      "cpu_time": 5.2281529528064061e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/316",
+      "family_index": 0,
+      "per_family_instance_index": 19,
+      "run_name": "BM_eratosfen/316",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1201781,
+      "real_time": 5.7037773853291606e+02,
+      "cpu_time": 5.6911244145148009e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/347",
+      "family_index": 0,
+      "per_family_instance_index": 20,
+      "run_name": "BM_eratosfen/347",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1081272,
+      "real_time": 6.4668385383192447e+02,
+      "cpu_time": 6.4644676547621748e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/381",
+      "family_index": 0,
+      "per_family_instance_index": 21,
+      "run_name": "BM_eratosfen/381",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 975547,
+      "real_time": 7.0000598536020402e+02,
+      "cpu_time": 6.9934376918795408e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/419",
+      "family_index": 0,
+      "per_family_instance_index": 22,
+      "run_name": "BM_eratosfen/419",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 646094,
+      "real_time": 9.4965106160383300e+02,
+      "cpu_time": 9.4964504236225730e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/460",
+      "family_index": 0,
+      "per_family_instance_index": 23,
+      "run_name": "BM_eratosfen/460",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 840195,
+      "real_time": 8.3124494788868913e+02,
+      "cpu_time": 8.3122072971155410e+02,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/506",
+      "family_index": 0,
+      "per_family_instance_index": 24,
+      "run_name": "BM_eratosfen/506",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 544169,
+      "real_time": 1.3134463392727919e+03,
+      "cpu_time": 1.3108018262708824e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/556",
+      "family_index": 0,
+      "per_family_instance_index": 25,
+      "run_name": "BM_eratosfen/556",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 566356,
+      "real_time": 1.4693041955918131e+03,
+      "cpu_time": 1.4679000593266389e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/611",
+      "family_index": 0,
+      "per_family_instance_index": 26,
+      "run_name": "BM_eratosfen/611",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 454252,
+      "real_time": 1.5532066672329574e+03,
+      "cpu_time": 1.5498390628990044e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/672",
+      "family_index": 0,
+      "per_family_instance_index": 27,
+      "run_name": "BM_eratosfen/672",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 377753,
+      "real_time": 1.6827844755449385e+03,
+      "cpu_time": 1.6827928434717946e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/739",
+      "family_index": 0,
+      "per_family_instance_index": 28,
+      "run_name": "BM_eratosfen/739",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 367849,
+      "real_time": 2.0461700589096451e+03,
+      "cpu_time": 2.0405139772026071e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/812",
+      "family_index": 0,
+      "per_family_instance_index": 29,
+      "run_name": "BM_eratosfen/812",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 310247,
+      "real_time": 2.2652679445534332e+03,
+      "cpu_time": 2.2609746879099616e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/893",
+      "family_index": 0,
+      "per_family_instance_index": 30,
+      "run_name": "BM_eratosfen/893",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 253604,
+      "real_time": 2.8029228639944668e+03,
+      "cpu_time": 2.8014743418873531e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/982",
+      "family_index": 0,
+      "per_family_instance_index": 31,
+      "run_name": "BM_eratosfen/982",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 327100,
+      "real_time": 2.4094532895171278e+03,
+      "cpu_time": 2.4017578508101478e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1080",
+      "family_index": 0,
+      "per_family_instance_index": 32,
+      "run_name": "BM_eratosfen/1080",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 372944,
+      "real_time": 1.9398204073674726e+03,
+      "cpu_time": 1.9353721684756899e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1188",
+      "family_index": 0,
+      "per_family_instance_index": 33,
+      "run_name": "BM_eratosfen/1188",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 334762,
+      "real_time": 2.0836357740424692e+03,
+      "cpu_time": 2.0806656131819036e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1306",
+      "family_index": 0,
+      "per_family_instance_index": 34,
+      "run_name": "BM_eratosfen/1306",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 308155,
+      "real_time": 2.2652604630680357e+03,
+      "cpu_time": 2.2588368840356484e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1436",
+      "family_index": 0,
+      "per_family_instance_index": 35,
+      "run_name": "BM_eratosfen/1436",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 282623,
+      "real_time": 2.4862592216089229e+03,
+      "cpu_time": 2.4829741316170384e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1579",
+      "family_index": 0,
+      "per_family_instance_index": 36,
+      "run_name": "BM_eratosfen/1579",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 252192,
+      "real_time": 2.7419604705889296e+03,
+      "cpu_time": 2.7370608504631609e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1736",
+      "family_index": 0,
+      "per_family_instance_index": 37,
+      "run_name": "BM_eratosfen/1736",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 234689,
+      "real_time": 2.9926275453914391e+03,
+      "cpu_time": 2.9863391168738285e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/1909",
+      "family_index": 0,
+      "per_family_instance_index": 38,
+      "run_name": "BM_eratosfen/1909",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 213422,
+      "real_time": 3.3364029013415543e+03,
+      "cpu_time": 3.3294950989120111e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/2099",
+      "family_index": 0,
+      "per_family_instance_index": 39,
+      "run_name": "BM_eratosfen/2099",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 186160,
+      "real_time": 3.8571397990799433e+03,
+      "cpu_time": 3.8488291039965811e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/2308",
+      "family_index": 0,
+      "per_family_instance_index": 40,
+      "run_name": "BM_eratosfen/2308",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 176334,
+      "real_time": 3.9670006351013849e+03,
+      "cpu_time": 3.9587448591876805e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/2538",
+      "family_index": 0,
+      "per_family_instance_index": 41,
+      "run_name": "BM_eratosfen/2538",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 159922,
+      "real_time": 4.6615731731253118e+03,
+      "cpu_time": 4.6588759645326927e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/2791",
+      "family_index": 0,
+      "per_family_instance_index": 42,
+      "run_name": "BM_eratosfen/2791",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 147040,
+      "real_time": 4.7689722388551063e+03,
+      "cpu_time": 4.7619435255712633e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/3070",
+      "family_index": 0,
+      "per_family_instance_index": 43,
+      "run_name": "BM_eratosfen/3070",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 116676,
+      "real_time": 5.6083734700753239e+03,
+      "cpu_time": 5.5996858308477667e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/3377",
+      "family_index": 0,
+      "per_family_instance_index": 44,
+      "run_name": "BM_eratosfen/3377",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 91758,
+      "real_time": 7.3257274133899855e+03,
+      "cpu_time": 7.3102946446086435e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/3714",
+      "family_index": 0,
+      "per_family_instance_index": 45,
+      "run_name": "BM_eratosfen/3714",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 108060,
+      "real_time": 6.5662454932202572e+03,
+      "cpu_time": 6.5524813714603133e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/4085",
+      "family_index": 0,
+      "per_family_instance_index": 46,
+      "run_name": "BM_eratosfen/4085",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 98402,
+      "real_time": 7.1674356720789920e+03,
+      "cpu_time": 7.1525970305481078e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/4493",
+      "family_index": 0,
+      "per_family_instance_index": 47,
+      "run_name": "BM_eratosfen/4493",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 88851,
+      "real_time": 7.7678465184127308e+03,
+      "cpu_time": 7.7513754938042312e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/4942",
+      "family_index": 0,
+      "per_family_instance_index": 48,
+      "run_name": "BM_eratosfen/4942",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 79899,
+      "real_time": 8.8136880686308814e+03,
+      "cpu_time": 8.8001763226072344e+03,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/5436",
+      "family_index": 0,
+      "per_family_instance_index": 49,
+      "run_name": "BM_eratosfen/5436",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 71258,
+      "real_time": 1.0051583794119295e+04,
+      "cpu_time": 1.0051463274299063e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/5979",
+      "family_index": 0,
+      "per_family_instance_index": 50,
+      "run_name": "BM_eratosfen/5979",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 63704,
+      "real_time": 1.1094521662720656e+04,
+      "cpu_time": 1.1079845959437424e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/6576",
+      "family_index": 0,
+      "per_family_instance_index": 51,
+      "run_name": "BM_eratosfen/6576",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 60182,
+      "real_time": 1.1700136203519764e+04,
+      "cpu_time": 1.1681069888006345e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/7233",
+      "family_index": 0,
+      "per_family_instance_index": 52,
+      "run_name": "BM_eratosfen/7233",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 46694,
+      "real_time": 1.4757054204057666e+04,
+      "cpu_time": 1.4724702103053964e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/7956",
+      "family_index": 0,
+      "per_family_instance_index": 53,
+      "run_name": "BM_eratosfen/7956",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 49090,
+      "real_time": 1.4023931391293307e+04,
+      "cpu_time": 1.4004069892035079e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/8751",
+      "family_index": 0,
+      "per_family_instance_index": 54,
+      "run_name": "BM_eratosfen/8751",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 44749,
+      "real_time": 1.5465556392193397e+04,
+      "cpu_time": 1.5448362890790882e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/9626",
+      "family_index": 0,
+      "per_family_instance_index": 55,
+      "run_name": "BM_eratosfen/9626",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 40005,
+      "real_time": 1.7303555730731227e+04,
+      "cpu_time": 1.7302892638420166e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/10588",
+      "family_index": 0,
+      "per_family_instance_index": 56,
+      "run_name": "BM_eratosfen/10588",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 36402,
+      "real_time": 1.9119462281991084e+04,
+      "cpu_time": 1.9119007472116849e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/11646",
+      "family_index": 0,
+      "per_family_instance_index": 57,
+      "run_name": "BM_eratosfen/11646",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 32719,
+      "real_time": 2.1246840581839693e+04,
+      "cpu_time": 2.1245481463369997e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/12810",
+      "family_index": 0,
+      "per_family_instance_index": 58,
+      "run_name": "BM_eratosfen/12810",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 28744,
+      "real_time": 2.3665562690918323e+04,
+      "cpu_time": 2.3665016490398004e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/14091",
+      "family_index": 0,
+      "per_family_instance_index": 59,
+      "run_name": "BM_eratosfen/14091",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 22560,
+      "real_time": 3.1835359751563916e+04,
+      "cpu_time": 3.1798106338652444e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/15500",
+      "family_index": 0,
+      "per_family_instance_index": 60,
+      "run_name": "BM_eratosfen/15500",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 21736,
+      "real_time": 3.0403630245227119e+04,
+      "cpu_time": 3.0403049043062492e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/17050",
+      "family_index": 0,
+      "per_family_instance_index": 61,
+      "run_name": "BM_eratosfen/17050",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 20343,
+      "real_time": 3.4578149240728446e+04,
+      "cpu_time": 3.4577426534926119e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/18755",
+      "family_index": 0,
+      "per_family_instance_index": 62,
+      "run_name": "BM_eratosfen/18755",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 16789,
+      "real_time": 4.0548183394137115e+04,
+      "cpu_time": 4.0547377985585859e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/20630",
+      "family_index": 0,
+      "per_family_instance_index": 63,
+      "run_name": "BM_eratosfen/20630",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 13167,
+      "real_time": 4.4185272803007530e+04,
+      "cpu_time": 4.4183385205437589e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/21661",
+      "family_index": 0,
+      "per_family_instance_index": 64,
+      "run_name": "BM_eratosfen/21661",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 14848,
+      "real_time": 4.8165636988234583e+04,
+      "cpu_time": 4.8100096982758660e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/22744",
+      "family_index": 0,
+      "per_family_instance_index": 65,
+      "run_name": "BM_eratosfen/22744",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 13298,
+      "real_time": 5.1556557151983056e+04,
+      "cpu_time": 5.1555081215220358e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/23881",
+      "family_index": 0,
+      "per_family_instance_index": 66,
+      "run_name": "BM_eratosfen/23881",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 12690,
+      "real_time": 5.3742421827927799e+04,
+      "cpu_time": 5.3644359338061804e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/25075",
+      "family_index": 0,
+      "per_family_instance_index": 67,
+      "run_name": "BM_eratosfen/25075",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 12475,
+      "real_time": 5.5857374990043536e+04,
+      "cpu_time": 5.5675201763526653e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/26328",
+      "family_index": 0,
+      "per_family_instance_index": 68,
+      "run_name": "BM_eratosfen/26328",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 11969,
+      "real_time": 5.8426033168556030e+04,
+      "cpu_time": 5.8290452836493969e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/27644",
+      "family_index": 0,
+      "per_family_instance_index": 69,
+      "run_name": "BM_eratosfen/27644",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 11221,
+      "real_time": 6.2060806078196983e+04,
+      "cpu_time": 6.1894215043222983e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/29026",
+      "family_index": 0,
+      "per_family_instance_index": 70,
+      "run_name": "BM_eratosfen/29026",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 10728,
+      "real_time": 6.5589091536279229e+04,
+      "cpu_time": 6.5465368381804881e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/30477",
+      "family_index": 0,
+      "per_family_instance_index": 71,
+      "run_name": "BM_eratosfen/30477",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 9973,
+      "real_time": 6.9862272435777573e+04,
+      "cpu_time": 6.9645096159631124e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/32000",
+      "family_index": 0,
+      "per_family_instance_index": 72,
+      "run_name": "BM_eratosfen/32000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 9519,
+      "real_time": 7.3288850193277351e+04,
+      "cpu_time": 7.3113631683999512e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/33600",
+      "family_index": 0,
+      "per_family_instance_index": 73,
+      "run_name": "BM_eratosfen/33600",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 8973,
+      "real_time": 7.7421026077696195e+04,
+      "cpu_time": 7.7281309038226376e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/35280",
+      "family_index": 0,
+      "per_family_instance_index": 74,
+      "run_name": "BM_eratosfen/35280",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 8480,
+      "real_time": 8.2213445282077198e+04,
+      "cpu_time": 8.2010882193396392e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/37044",
+      "family_index": 0,
+      "per_family_instance_index": 75,
+      "run_name": "BM_eratosfen/37044",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 8096,
+      "real_time": 8.6558001852457877e+04,
+      "cpu_time": 8.6437946887351180e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/38896",
+      "family_index": 0,
+      "per_family_instance_index": 76,
+      "run_name": "BM_eratosfen/38896",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 7661,
+      "real_time": 9.4848434277010863e+04,
+      "cpu_time": 9.4605787234041069e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/40840",
+      "family_index": 0,
+      "per_family_instance_index": 77,
+      "run_name": "BM_eratosfen/40840",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 7227,
+      "real_time": 9.6759935657087059e+04,
+      "cpu_time": 9.6529167981181148e+04,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/42882",
+      "family_index": 0,
+      "per_family_instance_index": 78,
+      "run_name": "BM_eratosfen/42882",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 6870,
+      "real_time": 1.0304085705830922e+05,
+      "cpu_time": 1.0272117452692777e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/45026",
+      "family_index": 0,
+      "per_family_instance_index": 79,
+      "run_name": "BM_eratosfen/45026",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 6168,
+      "real_time": 1.0867799335286497e+05,
+      "cpu_time": 1.0867905625810711e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/47277",
+      "family_index": 0,
+      "per_family_instance_index": 80,
+      "run_name": "BM_eratosfen/47277",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 5529,
+      "real_time": 1.1407414035113041e+05,
+      "cpu_time": 1.1406421776089862e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/49640",
+      "family_index": 0,
+      "per_family_instance_index": 81,
+      "run_name": "BM_eratosfen/49640",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 5459,
+      "real_time": 1.1917674317541832e+05,
+      "cpu_time": 1.1905242974903743e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/52122",
+      "family_index": 0,
+      "per_family_instance_index": 82,
+      "run_name": "BM_eratosfen/52122",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 5602,
+      "real_time": 1.2528033309439677e+05,
+      "cpu_time": 1.2527959478757523e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/54728",
+      "family_index": 0,
+      "per_family_instance_index": 83,
+      "run_name": "BM_eratosfen/54728",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 5252,
+      "real_time": 1.3209496306155092e+05,
+      "cpu_time": 1.3209179798172065e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/57464",
+      "family_index": 0,
+      "per_family_instance_index": 84,
+      "run_name": "BM_eratosfen/57464",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4963,
+      "real_time": 1.4502311343790762e+05,
+      "cpu_time": 1.4464964638323485e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/60337",
+      "family_index": 0,
+      "per_family_instance_index": 85,
+      "run_name": "BM_eratosfen/60337",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4769,
+      "real_time": 1.4786921178601397e+05,
+      "cpu_time": 1.4786755001048264e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/63353",
+      "family_index": 0,
+      "per_family_instance_index": 86,
+      "run_name": "BM_eratosfen/63353",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4601,
+      "real_time": 1.5272806389828637e+05,
+      "cpu_time": 1.5272880786785265e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/66520",
+      "family_index": 0,
+      "per_family_instance_index": 87,
+      "run_name": "BM_eratosfen/66520",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4308,
+      "real_time": 1.6291024582398369e+05,
+      "cpu_time": 1.6291047864438154e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/69846",
+      "family_index": 0,
+      "per_family_instance_index": 88,
+      "run_name": "BM_eratosfen/69846",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 4046,
+      "real_time": 1.7073852298534403e+05,
+      "cpu_time": 1.7037258205635150e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/73338",
+      "family_index": 0,
+      "per_family_instance_index": 89,
+      "run_name": "BM_eratosfen/73338",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3920,
+      "real_time": 1.7937289489871511e+05,
+      "cpu_time": 1.7860576071428673e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/77004",
+      "family_index": 0,
+      "per_family_instance_index": 90,
+      "run_name": "BM_eratosfen/77004",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3798,
+      "real_time": 1.8702419036247762e+05,
+      "cpu_time": 1.8661874828857370e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/80854",
+      "family_index": 0,
+      "per_family_instance_index": 91,
+      "run_name": "BM_eratosfen/80854",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3601,
+      "real_time": 1.9784656178995152e+05,
+      "cpu_time": 1.9761711968897673e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/84896",
+      "family_index": 0,
+      "per_family_instance_index": 92,
+      "run_name": "BM_eratosfen/84896",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3408,
+      "real_time": 2.0453315669051188e+05,
+      "cpu_time": 2.0453150176055977e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/89140",
+      "family_index": 0,
+      "per_family_instance_index": 93,
+      "run_name": "BM_eratosfen/89140",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3230,
+      "real_time": 2.2121004891998475e+05,
+      "cpu_time": 2.2120515789473831e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/93597",
+      "family_index": 0,
+      "per_family_instance_index": 94,
+      "run_name": "BM_eratosfen/93597",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 3062,
+      "real_time": 2.2744840725061498e+05,
+      "cpu_time": 2.2744043566296517e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/98276",
+      "family_index": 0,
+      "per_family_instance_index": 95,
+      "run_name": "BM_eratosfen/98276",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2937,
+      "real_time": 2.4196659686877197e+05,
+      "cpu_time": 2.4177948859380471e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/103189",
+      "family_index": 0,
+      "per_family_instance_index": 96,
+      "run_name": "BM_eratosfen/103189",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2796,
+      "real_time": 2.5596363411750644e+05,
+      "cpu_time": 2.5509679113018501e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/108348",
+      "family_index": 0,
+      "per_family_instance_index": 97,
+      "run_name": "BM_eratosfen/108348",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2634,
+      "real_time": 2.6469303264918021e+05,
+      "cpu_time": 2.6468129119209934e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/113765",
+      "family_index": 0,
+      "per_family_instance_index": 98,
+      "run_name": "BM_eratosfen/113765",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2454,
+      "real_time": 2.8584289201255399e+05,
+      "cpu_time": 2.8508445639771968e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/119453",
+      "family_index": 0,
+      "per_family_instance_index": 99,
+      "run_name": "BM_eratosfen/119453",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2397,
+      "real_time": 2.9328843095769361e+05,
+      "cpu_time": 2.9315784355444589e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/125425",
+      "family_index": 0,
+      "per_family_instance_index": 100,
+      "run_name": "BM_eratosfen/125425",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2238,
+      "real_time": 3.0707325737065508e+05,
+      "cpu_time": 3.0705079982126609e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/131696",
+      "family_index": 0,
+      "per_family_instance_index": 101,
+      "run_name": "BM_eratosfen/131696",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2158,
+      "real_time": 3.2553345134533144e+05,
+      "cpu_time": 3.2551205977756809e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/138280",
+      "family_index": 0,
+      "per_family_instance_index": 102,
+      "run_name": "BM_eratosfen/138280",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 2033,
+      "real_time": 3.4352790851070854e+05,
+      "cpu_time": 3.4350107181505417e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/145194",
+      "family_index": 0,
+      "per_family_instance_index": 103,
+      "run_name": "BM_eratosfen/145194",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1973,
+      "real_time": 3.5768313025478635e+05,
+      "cpu_time": 3.5765541054231895e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/152453",
+      "family_index": 0,
+      "per_family_instance_index": 104,
+      "run_name": "BM_eratosfen/152453",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1871,
+      "real_time": 3.7379753447523789e+05,
+      "cpu_time": 3.7377442971673002e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/160075",
+      "family_index": 0,
+      "per_family_instance_index": 105,
+      "run_name": "BM_eratosfen/160075",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1783,
+      "real_time": 4.0321907739290019e+05,
+      "cpu_time": 4.0320777790240926e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/168078",
+      "family_index": 0,
+      "per_family_instance_index": 106,
+      "run_name": "BM_eratosfen/168078",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1650,
+      "real_time": 4.2452639818128030e+05,
+      "cpu_time": 4.2330802727272583e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/176481",
+      "family_index": 0,
+      "per_family_instance_index": 107,
+      "run_name": "BM_eratosfen/176481",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1550,
+      "real_time": 4.6476540903958882e+05,
+      "cpu_time": 4.6426630322580499e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/185305",
+      "family_index": 0,
+      "per_family_instance_index": 108,
+      "run_name": "BM_eratosfen/185305",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1535,
+      "real_time": 4.7262169576950790e+05,
+      "cpu_time": 4.7261449185667769e+05,
+      "time_unit": "ns"
+    },
+    {
+      "name": "BM_eratosfen/194570",
+      "family_index": 0,
+      "per_family_instance_index": 109,
+      "run_name": "BM_eratosfen/194570",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1359,
+      "real_time": 5.1379501912554394e+05,
+      "cpu_time": 5.1351046284032729e+05,
+      "time_unit": "ns"
+    }
+  ]
+}

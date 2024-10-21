@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from math import sqrt
 import numpy as np
 
-f = open("build_folder/bench.txt", "r")
+f = open("bench.txt", "r")
 for i in range(13):
     f.readline()
 
@@ -45,7 +45,7 @@ for lsdadsada, dat in data.items():
 plt.xlabel('N, up to which the search for prime numbers')
 plt.ylabel('time')
 plt.legend(loc='best',fontsize=12)
-plt.savefig('build_folder/Benchmarking_graph.png')
+plt.savefig('Benchmarking_graph.png')
 
 
 
