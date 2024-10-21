@@ -1,4 +1,4 @@
-#Запуск
+# Запуск
 Сначала нужно убедиться в том, что на системе установлены Google Test(https://github.com/google/googletest) и Google Benchmark(https://github.com/google/benchmark)
 
 Далее пользуемся Cmake и, затем make
@@ -26,7 +26,7 @@ python3 ../parser_and_graph.py
 
 ```
 
-#Сложность
+# Сложность
 Сложность по памяти - О(N)
 Сложность по скорости - O(N * loglogN)
 
