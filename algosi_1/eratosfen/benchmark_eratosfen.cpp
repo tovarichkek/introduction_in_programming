@@ -2,7 +2,7 @@
 #include "eratosfen.hpp"
 #include <benchmark/benchmark.h>
 
-#define MAX_BENCHMARK_N 200000
+#define MAX_BENCHMARK_N 100000
 
 long long mass[MAX_COUNT_PRIME_NUMBERS] = {};
 
