@@ -1,5 +1,5 @@
 #include <iostream>
-#include "eratosfen.hpp"
+#include "../src/eratosfen.hpp"
 #include <benchmark/benchmark.h>
 
 #define MAX_BENCHMARK_N 100000

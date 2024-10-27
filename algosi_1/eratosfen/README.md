@@ -3,8 +3,8 @@
 
 Далее пользуемся Cmake и, затем make
 ```bash
-cmake -B build_folder/
-cd build_folder
+cmake -B build/
+cd build
 make
 
 #запустить только алгоритм
@@ -15,14 +15,14 @@ make
 
 #бенчмаркинг с выводом в консоль + графиком:
 ./benchmarking_eratosfen --benchmark_out_format=console --benchmark_out=bench.txt
-python3 ../parser_and_graph.py
+python3 ../benchmarking/parser_and_graph.py
 #Теперь в директории build_folder лежит png файл - Benchmarking_graph.png
 #Там же лежит bench.txt, в к-ом содержится информация по бенчмарк-тесту
 
 #бенчмаркинг с выводом в консоль + выходной файл в формате {json|console|csv}:
 ./benchmarking_eratosfen --benchmark_out_format={json|console|csv} --benchmark_out=$YOURFILENAME$
-python3 ../parser_and_graph.py
-#Теперь в директории build_folder лежит $YOURFILENAME$
+python3 ../benchmarking/parser_and_graph.py
+#Теперь в директории build_folder лежит $YOURFILENAME$ в указанном формате
 
 ```
 

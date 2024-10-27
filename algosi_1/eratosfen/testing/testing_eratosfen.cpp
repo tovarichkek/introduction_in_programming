@@ -2,7 +2,7 @@
 #include <gmock/gmock.h>
 
 #include <iostream>
-#include "eratosfen.hpp"
+#include "../src/eratosfen.hpp"
 #include <fstream>
 
 void numbers_from_true_data(long long* data){
