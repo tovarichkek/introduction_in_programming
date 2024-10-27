@@ -1,25 +1,26 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(Eratosthenes_algorithm)
+
 add_executable(eratosfen eratosfen.cpp)
 
-set(TEST_LIBRARIES
-    gtest
-    gmock 
-    pthread
-)
+find_library(TEST_LIBRARIES NAMES gtest gmock pthread)
+if(NOT TEST_LIBRARIES_FOUND)
+    message(WARNING "Did not find GTEST LIBS")
+else()
+    add_executable(testing_eratosfen testing_eratosfen.cpp)
+    target_link_libraries(testing_eratosfen PUBLIC ${TEST_LIBRARIES})
+endif()
 
-add_executable(testing_eratosfen testing_eratosfen.cpp)
-target_link_libraries(testing_eratosfen PUBLIC ${TEST_LIBRARIES})
-
-
-set(BENCH_LIBRARIES
-    pthread 
-    benchmark
-)
-set(TEST_COMPILER_FLAGS
+set(BENCH_COMPILER_FLAGS
    -O2
 )
 
-#add_definitions(-O2)
-add_executable(benchmarking_eratosfen benchmark_eratosfen.cpp) 
-target_compile_options(benchmarking_eratosfen PRIVATE ${TEST_COMPILER_FLAGS})
-target_link_libraries(benchmarking_eratosfen PUBLIC ${BENCH_LIBRARIES})
-#target_compile_options(benchmarking_eratosfen -O2)
+find_library(BENCH_LIBRARIES NAMES benchmark pthread)
+if(NOT BENCH_LIBRARIES)
+    message(SEND_ERROR "Did not find Benchmarking LIBS")
+else()
+    add_executable(benchmarking_eratosfen benchmark_eratosfen.cpp) 
+    target_compile_options(benchmarking_eratosfen PRIVATE ${BENCH_COMPILER_FLAGS})
+    target_link_libraries(benchmarking_eratosfen PUBLIC ${BENCH_LIBRARIES})
+endif()
