@@ -1,5 +1,5 @@
 # Запуск
-Сначала нужно убедиться в том, что на системе установлены Google Test(https://github.com/google/googletest) и Google Benchmark(https://github.com/google/benchmark)
+Сначала нужно убедиться в том, что на системе установлены Google Test(https://github.com/google/googletest), Google Benchmark(https://github.com/google/benchmark) и Boost(https://www.boost.org/)
 
 Далее пользуемся Cmake и, затем make
 ```bash
@@ -12,6 +12,8 @@ make
 
 #прогон тестов
 ./testing_eratosfen
+Либо же с импользованием ctest:
+ctest
 
 #бенчмаркинг с выводом в консоль + графиком:
 ./benchmarking_eratosfen --benchmark_out_format=console --benchmark_out=bench.txt
@@ -25,6 +27,14 @@ python3 ../benchmarking/parser_and_graph.py
 #Теперь в директории build_folder лежит $YOURFILENAME$ в указанном формате
 
 ```
+
+# RSA
+Небольшая реализация RSA на C++
+```
+#запустить
+./RSA_example
+```
+
 
 # Сложность
 Сложность по памяти - О(N)
