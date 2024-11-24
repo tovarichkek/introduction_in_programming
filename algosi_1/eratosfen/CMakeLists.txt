@@ -14,11 +14,11 @@ set(BENCH_COMPILER_FLAGS
 if(NOT Boost_FOUND)
     message(WARNING "Did not find boost LIBS")
 else()
-    #eratosfen
+    ###ERATOSFEN
     add_executable(eratosfen src/eratosfen.cpp)
     target_link_libraries(eratosfen Boost::program_options)
 
-    #testing
+    ###TESTING
     if(NOT GTest_FOUND)
         message(WARNING "Did not find GTEST LIBS")
     else()
@@ -31,7 +31,7 @@ else()
 
     endif()
     
-    #benchmark
+    ###BENCHMARK
     if(NOT benchmark_FOUND)
         message(WARNING "Did not find Benchmarking LIBS")
     else()
@@ -40,7 +40,9 @@ else()
         target_compile_options(benchmarking_eratosfen PRIVATE ${BENCH_COMPILER_FLAGS})
     endif()
 
-    #RSA
+    ###RSA
     add_executable(RSA_example RSA/RSA.cpp RSA/main.cpp)
+    
     #TODO testing
+
 endif()
