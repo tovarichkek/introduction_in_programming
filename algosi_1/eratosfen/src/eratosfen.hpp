@@ -1,14 +1,18 @@
 #pragma once
-
+#include <iostream>
 #include <limits.h>
 
-extern int MAX_COUNT_PRIME_NUMBERS;
+int MAX_COUNT_PRIME_NUMBERS = 500000; //default
 
 //eratosfen's algorithm, prime numbers from 2 to N are written im *mass
-void prime_to_N(long long N, long long* mass){
+int prime_to_N(long long N, long long* mass){
 
     int elems = (N + 1) / CHAR_BIT + 1; //size in bytes = (count numubers from 0 to N) / (byte's size in bits) + 1
     char* numbers = (char*)calloc(elems, sizeof(char)); 
+    if(!numbers){
+        std::cout << "No memory" << std::endl;
+        return 0;
+    }
 
     numbers[0] = 0b00000011; //0 and 1 are compos
     
@@ -24,5 +28,6 @@ void prime_to_N(long long N, long long* mass){
         }
     }
     free(numbers);
+    return ind_mass;
 }
 

@@ -3,8 +3,6 @@
 #include "eratosfen.hpp"
 #include <boost/program_options.hpp>
 
-int MAX_COUNT_PRIME_NUMBERS;
-
 void input_processing(int argc, char *argv[]){
     namespace prog_opts = boost::program_options;
 
@@ -45,17 +43,17 @@ int main(int argc, char *argv[]){
         return 0;
     }
 
-    long long mass[MAX_COUNT_PRIME_NUMBERS] = {};
-    prime_to_N(N, mass);
-    
-    std::cout << "Prime numbers: " << std::endl;
-
-
-    for(int elem: mass){
-        if(elem == 0){
-            break;
-        }
-        std::cout << elem << std::endl;
+    long long* mass = (long long*)malloc(MAX_COUNT_PRIME_NUMBERS * sizeof(long long));
+    if(!mass){
+        std::cout << "No memory" << std::endl;
     }
-    std::cout << std::endl;
+    else{
+        int count_primes = prime_to_N(N, mass);
+        std::cout << "Prime numbers: " << std::endl;
+
+        for(int i = 0; i < count_primes; i++){
+            std::cout << mass[i] << std::endl;
+        }
+        std::cout << std::endl;
+    }
 }

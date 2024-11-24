@@ -22,8 +22,13 @@ else()
     if(NOT GTest_FOUND)
         message(WARNING "Did not find GTEST LIBS")
     else()
+        enable_testing()
+
         add_executable(testing_eratosfen testing/testing_eratosfen.cpp)
         target_link_libraries(testing_eratosfen GTest::gtest GTest::gtest_main Boost::program_options)
+
+        add_test(NAME Test_erat COMMAND testing_eratosfen)
+
     endif()
     
     #benchmark
@@ -34,4 +39,8 @@ else()
         target_link_libraries(benchmarking_eratosfen benchmark Boost::program_options)
         target_compile_options(benchmarking_eratosfen PRIVATE ${BENCH_COMPILER_FLAGS})
     endif()
+
+    #RSA
+    add_executable(RSA_example RSA/RSA.cpp RSA/main.cpp)
+    #TODO testing
 endif()

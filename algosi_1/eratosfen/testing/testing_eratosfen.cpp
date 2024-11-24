@@ -5,8 +5,6 @@
 #include "../src/eratosfen.hpp"
 #include <fstream>
 
-int MAX_COUNT_PRIME_NUMBERS;
-
 void input_processing(int argc, char *argv[]){
     namespace prog_opts = boost::program_options;
 

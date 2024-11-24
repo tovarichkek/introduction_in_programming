@@ -5,7 +5,6 @@
 
 static long long* mass_for_tests;
 
-int MAX_COUNT_PRIME_NUMBERS;
 static int MAX_BENCHMARK_N = 500000;
 
 static void input_processing(int argc, char *argv[]){
