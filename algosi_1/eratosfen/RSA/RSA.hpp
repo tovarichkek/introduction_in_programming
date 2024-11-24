@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-//TODO проверять длину файла
+//TODO проверять длину файла, убрать дефайны
 //line in prime_numbers_up_to_10_6.txt, which has maximum possible unsigned short ref
 #define MAX_UNS_SHORT_LINE 6542
 #define LAST_LINE 78498
@@ -20,6 +20,8 @@ bool check_prime(unsigned long long n);
 
 std::pair<int, int> extended_evklid(unsigned int a, unsigned int b);
 
+//make keys, based on prime numbers p, q, e
+//the result is written to the private and public keys
 void make_keys(unsigned short p, unsigned short q, unsigned int e, std::pair<unsigned int, unsigned int>* public_key, std::pair<unsigned int, unsigned int>* private_key);
 
 template<typename T> 
@@ -35,7 +37,7 @@ unsigned short simple_hash_function(T* data, size_t count_elems){
     return sum;
 }
 
-
+//Generating prime numbers p, q, e, based on hash of data
 //TODO проверка на конец файла
 template<typename T>
 void generating_params_for_keys_by_data(T* data, size_t count_elems, unsigned short& p, unsigned short& q, unsigned int& e, unsigned short(* hash_function)(T*, size_t) = simple_hash_function){
@@ -80,7 +82,7 @@ void generating_params_for_keys_by_data(T* data, size_t count_elems, unsigned sh
     prime_numbers.close();
 }
 
-
+//the result is written to the private and public keys
 template<typename T>
 void generating_keys_by_data(T* data, size_t count_elems, std::pair<unsigned int, unsigned int>* public_key, std::pair<unsigned int, unsigned int>* private_key, unsigned short(* hash_function)(T*, size_t) = simple_hash_function){
     unsigned short p = 0, q = 0;
