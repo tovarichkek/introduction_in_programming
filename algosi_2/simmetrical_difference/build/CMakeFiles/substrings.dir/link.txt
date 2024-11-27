@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/substrings.dir/src/fast_set.cpp.o CMakeFiles/substrings.dir/tasks/substrings.cpp.o -o substrings  /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 

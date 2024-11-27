@@ -1,4 +1,0 @@
-/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_2/simmetrical_difference/build/CMakeFiles/symmetric_diff.dir
-/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_2/simmetrical_difference/build/CMakeFiles/substrings.dir
-/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_2/simmetrical_difference/build/CMakeFiles/edit_cache.dir
-/home/mmm/Documents/VVEDENIE_V_PROGU/algosi_2/simmetrical_difference/build/CMakeFiles/rebuild_cache.dir
