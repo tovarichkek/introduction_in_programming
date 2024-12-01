@@ -61,10 +61,12 @@ int main(int argc, char *argv[]){
     }
     Fast_border_set fast_A = Fast_border_set(A);
 
-    std::list<Fast_border_set> res = {};
+    std::list<Fast_border_set> res = {}; // Здесь не нужен std::list. Достаьлчно std::vector
     
     fast_A.all_nodes(res);
     
+    // [1] Это похоже на std::unordered_map, но с более плохой ассмптотикой. 
+    // Попробуй реализовать аналогичный алгоритм используя стандартную структуру данных
     for(auto it = res.begin(); it != res.end(); it++){
         it->Print_chars();
     }

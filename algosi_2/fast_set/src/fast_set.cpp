@@ -8,6 +8,8 @@ Fast_border_set* Fast_border_set::symm_diff(Fast_border_set& B){
         return nullptr;
     }
     size_t this_now = 0, B_now = 0;
+    // [0] Этот алгоритм имеет плохую ассимптотику. Он иммет O(max - min). 
+    // Если хранить std::vector<std::pair<{value}, {number of occurances}>> то ассимптотика будет O(N) N - количество элементов
     for(long long num = std::min(this->min_el, B.min_el); num <= std::max(this->max_el, B.max_el); num++){
 
         if((num < this->min_el) || (num > this->max_el)){
